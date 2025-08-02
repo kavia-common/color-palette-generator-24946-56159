@@ -65,7 +65,7 @@ function App() {
   // PUBLIC_INTERFACE
   const handleSaveFavorite = () => {
     if (favorites.find((fav) => fav.join(',') === palette.join(','))) return;
-    setFavorites([{ ...palette }, ...favorites]);
+    setFavorites([palette.slice(), ...favorites]);
   };
 
   // Remove favorite palette by index
