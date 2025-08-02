@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/color-palette-generator-24946-56159/palette_generator_frontend"
+}
